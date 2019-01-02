@@ -15,6 +15,17 @@ export class MyApp {
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
+
+      (window as any).Freshchat.init({
+        appId: 'your-id',
+        appKey: 'your-key',
+        gallerySelectionEnabled: true,
+        cameraCaptureEnabled: true,
+        teamMemberInfoVisible: true
+      }, function(success) {
+        console.log('This is called form the Freshchat init callback');
+      });
+
       statusBar.styleDefault();
       splashScreen.hide();
     });
