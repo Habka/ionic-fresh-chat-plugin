@@ -1,5 +1,7 @@
 {
   "name": "ionic-fresh-chat-plugin",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
