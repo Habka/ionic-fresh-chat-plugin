@@ -11,4 +11,10 @@ export class ContactPage {
 
   }
 
+
+  chat() {
+    console.log('chat');
+    (window as any).Freshchat.showConversations();
+  }
+
 }

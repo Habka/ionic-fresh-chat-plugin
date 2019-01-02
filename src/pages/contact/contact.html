@@ -7,11 +7,10 @@
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
+  <div padding>
+    <button ion-button (click)="chat()" color="primary" block icon-end>
+      Chat with us
+      <ion-icon name="chatbubbles"></ion-icon>
+    </button>
+  </div>
 </ion-content>
