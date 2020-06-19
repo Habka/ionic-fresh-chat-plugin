@@ -17,8 +17,8 @@ export class MyApp {
       // Here you can do any higher level native things you might need.
 
       (window as any).Freshchat.init({
-        appId: 'your-id',
-        appKey: 'your-key',
+            appId: "522a7b9e-807c-4779-8ae9-27866f881c4b",
+            appKey: "7d213d8e-5e57-42ef-9eb6-36cca0d09635",
         gallerySelectionEnabled: true,
         cameraCaptureEnabled: true,
         teamMemberInfoVisible: true
